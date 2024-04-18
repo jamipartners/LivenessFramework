@@ -87,14 +87,20 @@
         "name": "MLKitVision",
         "printedName": "MLKitVision",
         "declKind": "Import",
-        "moduleName": "LivenessFramework"
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
         "name": "MLKitFaceDetection",
         "printedName": "MLKitFaceDetection",
         "declKind": "Import",
-        "moduleName": "LivenessFramework"
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -121,6 +127,216 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "BaseViewController",
+        "printedName": "BaseViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LivenessFramework@objc(cs)BaseViewController(im)viewDidLoad",
+            "mangledName": "$s17LivenessFramework18BaseViewControllerC11viewDidLoadyyF",
+            "moduleName": "LivenessFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseViewController",
+                "printedName": "LivenessFramework.BaseViewController",
+                "usr": "c:@M@LivenessFramework@objc(cs)BaseViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LivenessFramework@objc(cs)BaseViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s17LivenessFramework18BaseViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "LivenessFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LivenessFramework.BaseViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BaseViewController",
+                    "printedName": "LivenessFramework.BaseViewController",
+                    "usr": "c:@M@LivenessFramework@objc(cs)BaseViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LivenessFramework@objc(cs)BaseViewController(im)initWithCoder:",
+            "mangledName": "$s17LivenessFramework18BaseViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LivenessFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LivenessFramework@objc(cs)BaseViewController",
+        "mangledName": "$s17LivenessFramework18BaseViewControllerC",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -135,7 +351,10 @@
         "name": "MLKitFaceDetection",
         "printedName": "MLKitFaceDetection",
         "declKind": "Import",
-        "moduleName": "LivenessFramework"
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -207,6 +426,321 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "FaceDetectionViewController",
+        "printedName": "FaceDetectionViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "LivenessFramework.LivenessControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17LivenessFramework27FaceDetectionViewControllerC8delegateAA0aF8Delegate_pSgvp",
+            "mangledName": "$s17LivenessFramework27FaceDetectionViewControllerC8delegateAA0aF8Delegate_pSgvp",
+            "moduleName": "LivenessFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LivenessFramework.LivenessControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessControllerDelegate",
+                        "printedName": "LivenessFramework.LivenessControllerDelegate",
+                        "usr": "s:17LivenessFramework0A18ControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework27FaceDetectionViewControllerC8delegateAA0aF8Delegate_pSgvg",
+                "mangledName": "$s17LivenessFramework27FaceDetectionViewControllerC8delegateAA0aF8Delegate_pSgvg",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LivenessFramework.LivenessControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessControllerDelegate",
+                        "printedName": "LivenessFramework.LivenessControllerDelegate",
+                        "usr": "s:17LivenessFramework0A18ControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework27FaceDetectionViewControllerC8delegateAA0aF8Delegate_pSgvs",
+                "mangledName": "$s17LivenessFramework27FaceDetectionViewControllerC8delegateAA0aF8Delegate_pSgvs",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework27FaceDetectionViewControllerC8delegateAA0aF8Delegate_pSgvM",
+                "mangledName": "$s17LivenessFramework27FaceDetectionViewControllerC8delegateAA0aF8Delegate_pSgvM",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LivenessFramework@objc(cs)FaceDetectionViewController(im)viewDidLoad",
+            "mangledName": "$s17LivenessFramework27FaceDetectionViewControllerC11viewDidLoadyyF",
+            "moduleName": "LivenessFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceDetectionViewController",
+                "printedName": "LivenessFramework.FaceDetectionViewController",
+                "usr": "c:@M@LivenessFramework@objc(cs)FaceDetectionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LivenessFramework@objc(cs)FaceDetectionViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s17LivenessFramework27FaceDetectionViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "LivenessFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LivenessFramework.FaceDetectionViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceDetectionViewController",
+                    "printedName": "LivenessFramework.FaceDetectionViewController",
+                    "usr": "c:@M@LivenessFramework@objc(cs)FaceDetectionViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LivenessFramework@objc(cs)FaceDetectionViewController(im)initWithCoder:",
+            "mangledName": "$s17LivenessFramework27FaceDetectionViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LivenessFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LivenessFramework@objc(cs)FaceDetectionViewController",
+        "mangledName": "$s17LivenessFramework27FaceDetectionViewControllerC",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@LivenessFramework@objc(cs)BaseViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "LivenessFramework.BaseViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -272,6 +806,7 @@
         "declKind": "Import",
         "moduleName": "LivenessFramework",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -631,350 +1166,350 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/SharedFaceDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 657,
+      "offset": 699,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/SharedFaceDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1795,
+      "offset": 1837,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 579,
+      "offset": 607,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 911,
+      "offset": 939,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1472,
       "length": 11,
       "value": "\"backArrow\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1494,
+      "offset": 1529,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1501,
+      "offset": 1536,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1512,
+      "offset": 1547,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1524,
+      "offset": 1559,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1579,
+      "offset": 1614,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1966,
+      "offset": 2001,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1987,
+      "offset": 2022,
       "length": 11,
       "value": "\"Cancelled\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2014,
+      "offset": 2049,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2285,
+      "offset": 2320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2428,
+      "offset": 2463,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2548,
+      "offset": 2583,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2641,
+      "offset": 2676,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3251,
+      "offset": 3286,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4235,
+      "offset": 4270,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4310,
+      "offset": 4345,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4445,
+      "offset": 4480,
       "length": 11,
       "value": "\"requested\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4636,
+      "offset": 4671,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4673,
+      "offset": 4708,
       "length": 12,
       "value": "\"Blink Eyes\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5662,
+      "offset": 5697,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5683,
+      "offset": 5718,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5701,
+      "offset": 5736,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5720,
+      "offset": 5755,
       "length": 16,
       "value": "\"30 second done\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5990,
+      "offset": 6025,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6005,
+      "offset": 6040,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7090,
+      "offset": 7125,
       "length": 15,
       "value": "\"responseCode \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7132,
+      "offset": 7167,
       "length": 10,
       "value": "\"message \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7212,
+      "offset": 7247,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7249,
+      "offset": 7284,
       "length": 10,
       "value": "\"Detected\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7491,
+      "offset": 7526,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7528,
+      "offset": 7563,
       "length": 16,
       "value": "\"Unknown Person\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7576,
+      "offset": 7611,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7650,
+      "offset": 7685,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7676,
+      "offset": 7711,
       "length": 13,
       "value": "\"getresponse\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7746,
+      "offset": 7781,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7892,
+      "offset": 7927,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Controllers\/FaceDetectionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7926,
+      "offset": 7961,
       "length": 17,
       "value": "\"Something Wrong\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 194,
+      "offset": 215,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 285,
+      "offset": 306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 365,
+      "offset": 386,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 605,
+      "offset": 626,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 661,
+      "offset": 682,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 754,
+      "offset": 775,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 954,
+      "offset": 975,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1011,
+      "offset": 1032,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/LivenessFramework\/LivelinessFaceDetection\/Utilities\/EyeBlinkDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1105,
+      "offset": 1126,
       "length": 1,
       "value": "0"
     },
