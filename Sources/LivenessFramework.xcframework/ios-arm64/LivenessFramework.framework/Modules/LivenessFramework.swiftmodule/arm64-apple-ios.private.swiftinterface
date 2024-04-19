@@ -5,25 +5,17 @@
 import AVFoundation
 import CoreMedia
 import CoreVideo
-import DeveloperToolsSupport
 import Foundation
 @_exported import LivenessFramework
 import Swift
-import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class BaseViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
 public protocol LivenessControllerDelegate : AnyObject {
   func sendBack(responseCode: Swift.Int, responseMessage: Swift.String, responseData: Swift.Double)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class FaceDetectionViewController : LivenessFramework.BaseViewController {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class FaceDetectionViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: (any LivenessFramework.LivenessControllerDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)

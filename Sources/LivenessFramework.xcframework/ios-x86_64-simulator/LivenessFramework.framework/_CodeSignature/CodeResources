@@ -4,25 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Assets.car</key>
-		<data>
-		z+EEYwsH5tckam/uUdZx1650rKc=
-		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<data>
-		RVqrULMN2UKclh9fRtnyfWRDivM=
-		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<data>
-		n2t8gsDpfE6XkhG31p7IQJRxTxU=
-		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<data>
-		ZVgM1+KwZcZnwhgaI0F7Bt1ba2c=
-		</data>
 		<key>Headers/LivenessFramework-Swift.h</key>
 		<data>
-		7tSP6jK3Su0AL7fAAy2HdqzJEyw=
+		wwVVLPDQlGoBgr96hWEQcLEzGe4=
 		</data>
 		<key>Headers/LivenessFramework.h</key>
 		<data>
@@ -34,11 +18,11 @@
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mB/Y5YZAp1t1iGy7S3hwAv3rxDc=
+		AtymCIBEaPAHAb1ZJ7xJkX9i7W4=
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ooXISCFBD9VSUI6DCX4Xr6wSwso=
+		IAOANUYkeFk9S1rHsEGNKohsjFk=
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +30,11 @@
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ooXISCFBD9VSUI6DCX4Xr6wSwso=
+		IAOANUYkeFk9S1rHsEGNKohsjFk=
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Jfci0aIjVCjRu//bXG6ZrH7BXUo=
+		PK3NWYpy8dv/WRZHGnwOWmt8upw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,39 +43,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e/sXsILOg+MGpNRXQc4hkDiktVD2c5ZKueG7u3rfpN0=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EHmAxUJ01y+2BOHoLvTwgg3kW53TbNWJnCD5cvjOtYI=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VPNjf2cf66XxnoLsT0p/tEi7PPwPsYDwiapXH8jwU+I=
-			</data>
-		</dict>
 		<key>Headers/LivenessFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hjXDMbaLse+3cWiUJUcE+Ei7e8rT6m3bAX0TgvV/xks=
+			550boRjphI1E7wHT7YcnugPKHgojszaghZIN2Iqh5dM=
 			</data>
 		</dict>
 		<key>Headers/LivenessFramework.h</key>
@@ -105,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AE6z298FE0SWQePwoet1i3mDZjiU/qRhzOgplVDVlOA=
+			UNMhjPrm2ViMjGcRNDCuv2enrTTSzXebUoiz76TSszA=
 			</data>
 		</dict>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CmbQLg1BGztQ/xerSenrCNqcycIo+JKi9OSgqQB4iSo=
+			0QP+yL2vfLUH3ONyaMbx1lC3LG3TJrzznVjyYGNj2+s=
 			</data>
 		</dict>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CmbQLg1BGztQ/xerSenrCNqcycIo+JKi9OSgqQB4iSo=
+			0QP+yL2vfLUH3ONyaMbx1lC3LG3TJrzznVjyYGNj2+s=
 			</data>
 		</dict>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QSACTcuMBSCSYjGwR0Z6QGOw4d7FygDGY3fVdlhROB8=
+			/Eop82h0E3DFhOgcxSfaV3D/HCw9dIFUn3cA2mOlOU8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

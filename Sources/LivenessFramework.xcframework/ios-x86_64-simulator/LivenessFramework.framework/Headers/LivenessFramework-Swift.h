@@ -315,17 +315,6 @@ SWIFT_CLASS("_TtC17LivenessFramework11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC17LivenessFramework18BaseViewController")
-@interface BaseViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_CLASS("_TtC17LivenessFramework13CameraPreview")
 @interface CameraPreview : NSObject
@@ -341,9 +330,12 @@ SWIFT_CLASS("_TtC17LivenessFramework13CameraPreview")
 @end
 
 @class UIBarButtonItem;
+@class NSString;
+@class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC17LivenessFramework27FaceDetectionViewController")
-@interface FaceDetectionViewController : BaseViewController
+@interface FaceDetectionViewController : UIViewController
 - (void)viewDidLoad;
 - (void)backWithSender:(UIBarButtonItem * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -366,12 +358,6 @@ SWIFT_CLASS("_TtC17LivenessFramework13SceneDelegate")
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-
-
-
-
 
 #endif
 #if __has_attribute(external_source_symbol)
