@@ -20,7 +20,7 @@ public protocol LivenessControllerDelegate : AnyObject {
   func sendBack(responseCode: Swift.Int, responseMessage: Swift.String, responseData: Swift.Double)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DetectionVC : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public var imageUrl: Swift.String
+  @_Concurrency.MainActor(unsafe) public var imageUrl: Swift.String?
   @_Concurrency.MainActor(unsafe) weak public var delegate: (any LivenessFramework.LivenessControllerDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
