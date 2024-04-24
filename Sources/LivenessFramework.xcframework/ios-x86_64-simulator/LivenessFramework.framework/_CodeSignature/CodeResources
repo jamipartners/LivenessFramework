@@ -8,6 +8,30 @@
 		<data>
 		z+EEYwsH5tckam/uUdZx1650rKc=
 		</data>
+		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<data>
+		RVqrULMN2UKclh9fRtnyfWRDivM=
+		</data>
+		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		</data>
+		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<data>
+		ZVgM1+KwZcZnwhgaI0F7Bt1ba2c=
+		</data>
+		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<data>
+		qLX/y/qEjr1JBzLk0vv4L/qLses=
+		</data>
+		<key>Base.lproj/Main.storyboardc/DetectionVC.nib</key>
+		<data>
+		RRXsG/6fbpDQC0DcvNVcTCV7EOY=
+		</data>
+		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<data>
+		L3DsGtEO1Xnw1YdEJLHMTISX+NU=
+		</data>
 		<key>Headers/LivenessFramework-Swift.h</key>
 		<data>
 		HOqCvRIlrSqjBUtcTdndE+zcOF4=
@@ -19,18 +43,6 @@
 		<key>Info.plist</key>
 		<data>
 		H3KNm5PHDNU6Znh2++Y+qZDMFbY=
-		</data>
-		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<data>
-		qLX/y/qEjr1JBzLk0vv4L/qLses=
-		</data>
-		<key>Main.storyboardc/DetectionVC.nib</key>
-		<data>
-		RRXsG/6fbpDQC0DcvNVcTCV7EOY=
-		</data>
-		<key>Main.storyboardc/Info.plist</key>
-		<data>
-		L3DsGtEO1Xnw1YdEJLHMTISX+NU=
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,6 +78,48 @@
 			e/sXsILOg+MGpNRXQc4hkDiktVD2c5ZKueG7u3rfpN0=
 			</data>
 		</dict>
+		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EHmAxUJ01y+2BOHoLvTwgg3kW53TbNWJnCD5cvjOtYI=
+			</data>
+		</dict>
+		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
+			</data>
+		</dict>
+		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VPNjf2cf66XxnoLsT0p/tEi7PPwPsYDwiapXH8jwU+I=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nsijPZpBuwV9GStN+khX14XHNoEEGJ7BaWxSrrmrmVQ=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/DetectionVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dCIsc9Z3Ld2R6n3Yn+/jFUUcoytt+Cq55A6eV5OM5fc=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			deWhPAKdUp2Dis0O7go+AzzG47wbbqlIh1faLM7EDuU=
+			</data>
+		</dict>
 		<key>Headers/LivenessFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -78,27 +132,6 @@
 			<key>hash2</key>
 			<data>
 			zPFFnOO45XqXOB8BLlAwzwHsOybiPru+wRw3S/SYLqE=
-			</data>
-		</dict>
-		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nsijPZpBuwV9GStN+khX14XHNoEEGJ7BaWxSrrmrmVQ=
-			</data>
-		</dict>
-		<key>Main.storyboardc/DetectionVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dCIsc9Z3Ld2R6n3Yn+/jFUUcoytt+Cq55A6eV5OM5fc=
-			</data>
-		</dict>
-		<key>Main.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			deWhPAKdUp2Dis0O7go+AzzG47wbbqlIh1faLM7EDuU=
 			</data>
 		</dict>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
