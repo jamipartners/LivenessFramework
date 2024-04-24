@@ -17,3 +17,16 @@ public struct ServeResponse : Swift.Decodable {
 public protocol LivenessControllerDelegate : AnyObject {
   func sendBack(responseCode: Swift.Int, responseMessage: Swift.String, responseData: Swift.Double)
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DetectionVC : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var imageUrl: Swift.String
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any LivenessFramework.LivenessControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension LivenessFramework.DetectionVC : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
