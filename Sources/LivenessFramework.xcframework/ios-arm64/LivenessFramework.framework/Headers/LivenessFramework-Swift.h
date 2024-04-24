@@ -280,7 +280,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVFoundation;
 @import CoreMedia;
 @import Foundation;
-@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -315,34 +314,28 @@ SWIFT_CLASS("_TtC17LivenessFramework11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC17LivenessFramework13CameraPreview")
-@interface CameraPreview : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class AVCaptureOutput;
-@class AVCaptureConnection;
-
-@interface CameraPreview (SWIFT_EXTENSION(LivenessFramework)) <AVCaptureVideoDataOutputSampleBufferDelegate>
-- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
-- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didDropSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
-@end
-
 @class UIBarButtonItem;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC17LivenessFramework27FaceDetectionViewController")
-@interface FaceDetectionViewController : UIViewController
+SWIFT_CLASS("_TtC17LivenessFramework11DetectionVC")
+@interface DetectionVC : UIViewController
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
 - (void)backWithSender:(UIBarButtonItem * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
+@class AVCaptureOutput;
+@class AVCaptureConnection;
+
+@interface DetectionVC (SWIFT_EXTENSION(LivenessFramework)) <AVCaptureVideoDataOutputSampleBufferDelegate>
+- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
+@end
 
 @class UIWindow;
 @class UIScene;
