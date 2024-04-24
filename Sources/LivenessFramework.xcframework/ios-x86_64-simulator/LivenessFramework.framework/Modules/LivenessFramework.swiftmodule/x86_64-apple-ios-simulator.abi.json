@@ -962,393 +962,407 @@
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 4921,
+      "offset": 5009,
       "length": 31,
       "value": "\"Error loading image from URL:\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 5129,
+      "offset": 5217,
       "length": 14,
       "value": "\"Invalid URL:\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 5162,
+      "offset": 5250,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5547,
+      "offset": 5635,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 5690,
+      "offset": 5778,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5810,
+      "offset": 5898,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5903,
+      "offset": 5991,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6161,
+      "offset": 6249,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 6244,
+      "offset": 6332,
       "length": 31,
       "value": "\"camera_frame_processing_queue\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7034,
+      "offset": 7122,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7651,
+      "offset": 7739,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 7734,
+      "offset": 7822,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8081,
+      "offset": 8169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 8132,
+      "offset": 8220,
       "length": 17,
       "value": "\"Blink your eyes\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "Dictionary",
-      "offset": 8437,
+      "offset": 8525,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 10679,
+      "offset": 10767,
       "length": 28,
       "value": "\"No eye landmarks detected.\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 11018,
+      "offset": 11106,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 11047,
+      "offset": 11135,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 11099,
+      "offset": 11187,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 11128,
+      "offset": 11216,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 11208,
+      "offset": 11296,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 11317,
+      "offset": 11405,
       "length": 17,
       "value": "\"Blink detected!\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 11369,
+      "offset": 11457,
       "length": 17,
       "value": "\"Blink your eyes\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11427,
+      "offset": 11515,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 11474,
+      "offset": 11562,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11820,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11868,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11916,
+      "offset": 11850,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 11968,
+      "offset": 12004,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12052,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12100,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12152,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 12007,
+      "offset": 12191,
       "length": 14,
       "value": "\"Not Blinking\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12103,
+      "offset": 12287,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 12276,
+      "offset": 12460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12559,
+      "offset": 12743,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12574,
+      "offset": 12758,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 12602,
+      "offset": 12786,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12802,
+      "offset": 12986,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12861,
+      "offset": 13045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12920,
+      "offset": 13104,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12979,
+      "offset": 13163,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13266,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "StringLiteral",
-      "offset": 13287,
-      "length": 2,
-      "value": "\"\""
+      "kind": "BooleanLiteral",
+      "offset": 13607,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 13305,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "StringLiteral",
-      "offset": 13324,
-      "length": 16,
-      "value": "\"30 second done\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 13594,
+      "offset": 13883,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13609,
+      "offset": 13898,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13952,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 14589,
+      "offset": 13965,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 13975,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14910,
       "length": 15,
       "value": "\"responseCode \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 14631,
+      "offset": 14952,
       "length": 10,
       "value": "\"message \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14711,
+      "offset": 15032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 14748,
+      "offset": 15069,
       "length": 17,
       "value": "\"Blink your eyes\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14997,
+      "offset": 15318,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 15034,
+      "offset": 15355,
       "length": 16,
       "value": "\"Unknown Person\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15082,
+      "offset": 15403,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 15156,
+      "offset": 15477,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 15182,
+      "offset": 15503,
       "length": 13,
       "value": "\"getresponse\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15252,
+      "offset": 15573,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15398,
+      "offset": 15719,
       "length": 4,
       "value": "true"
     },
