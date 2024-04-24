@@ -329,13 +329,13 @@ SWIFT_CLASS("_TtC17LivenessFramework11DetectionVC")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 @class AVCaptureOutput;
 @class AVCaptureConnection;
 
 @interface DetectionVC (SWIFT_EXTENSION(LivenessFramework)) <AVCaptureVideoDataOutputSampleBufferDelegate>
 - (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
 @end
+
 
 @class UIWindow;
 @class UIScene;
@@ -351,6 +351,12 @@ SWIFT_CLASS("_TtC17LivenessFramework13SceneDelegate")
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+
+
 
 #endif
 #if __has_attribute(external_source_symbol)

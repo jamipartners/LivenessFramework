@@ -714,6 +714,34 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
       }
     ],
     "json_format_version": 8
@@ -1530,6 +1558,13 @@
       "offset": 2601,
       "length": 3,
       "value": "200"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-bndhrvqwchsxzbgorgjlmjodchda\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 11,
+      "value": "\"backArrow\""
     }
   ]
 }
