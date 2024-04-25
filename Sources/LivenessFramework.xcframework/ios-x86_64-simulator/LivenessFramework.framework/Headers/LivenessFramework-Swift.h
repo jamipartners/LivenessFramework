@@ -306,8 +306,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class UISceneConnectionOptions;
 @class UISceneConfiguration;
 
-SWIFT_CLASS("_TtC17LivenessFramework11AppDelegate")
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+SWIFT_CLASS("_TtC17LivenessFramework19AppDelegateLiveness")
+@interface AppDelegateLiveness : UIResponder <UIApplicationDelegate>
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
 - (UISceneConfiguration * _Nonnull)application:(UIApplication * _Nonnull)application configurationForConnectingSceneSession:(UISceneSession * _Nonnull)connectingSceneSession options:(UISceneConnectionOptions * _Nonnull)options SWIFT_WARN_UNUSED_RESULT;
 - (void)application:(UIApplication * _Nonnull)application didDiscardSceneSessions:(NSSet<UISceneSession *> * _Nonnull)sceneSessions;

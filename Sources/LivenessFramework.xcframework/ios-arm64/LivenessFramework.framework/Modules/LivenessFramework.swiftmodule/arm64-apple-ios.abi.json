@@ -772,16 +772,16 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/AppDelegate.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/AppDelegateLiveness.swift",
       "kind": "BooleanLiteral",
-      "offset": 401,
+      "offset": 409,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/AppDelegate.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/AppDelegateLiveness.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 826,
       "length": 23,
       "value": "\"Default Configuration\""
     },
