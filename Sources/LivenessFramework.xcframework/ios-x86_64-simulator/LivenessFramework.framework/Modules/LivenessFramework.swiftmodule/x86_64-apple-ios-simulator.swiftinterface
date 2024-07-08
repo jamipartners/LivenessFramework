@@ -15,8 +15,14 @@ import _SwiftConcurrencyShims
 public struct ServeResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
+public class ImageManager {
+  public init()
+  public func saveImage(image: UIKit.UIImage, filename: Swift.String)
+  public func loadImage(filename: Swift.String) -> UIKit.UIImage?
+  @objc deinit
+}
 public protocol LivenessControllerDelegate : AnyObject {
-  func sendBack(responseCode: Swift.Int, responseMessage: Swift.String, responseData: Swift.Double)
+  func sendBack(responseCode: Swift.Int, responseMessage: Swift.String, responseData: Swift.Double, imagePath: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DetectionVC : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var imageUrl: Swift.String?

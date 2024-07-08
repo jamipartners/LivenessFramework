@@ -85,6 +85,125 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageManager",
+        "printedName": "ImageManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageManager",
+                "printedName": "LivenessFramework.ImageManager",
+                "usr": "s:17LivenessFramework12ImageManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17LivenessFramework12ImageManagerCACycfc",
+            "mangledName": "$s17LivenessFramework12ImageManagerCACycfc",
+            "moduleName": "LivenessFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "saveImage",
+            "printedName": "saveImage(image:filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17LivenessFramework12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
+            "mangledName": "$s17LivenessFramework12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
+            "moduleName": "LivenessFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadImage",
+            "printedName": "loadImage(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17LivenessFramework12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
+            "mangledName": "$s17LivenessFramework12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
+            "moduleName": "LivenessFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17LivenessFramework12ImageManagerC",
+        "mangledName": "$s17LivenessFramework12ImageManagerC",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -115,7 +234,7 @@
           {
             "kind": "Function",
             "name": "sendBack",
-            "printedName": "sendBack(responseCode:responseMessage:responseData:)",
+            "printedName": "sendBack(responseCode:responseMessage:responseData:imagePath:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -139,11 +258,17 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17LivenessFramework0A18ControllerDelegateP8sendBack12responseCode0G7Message0G4DataySi_SSSdtF",
-            "mangledName": "$s17LivenessFramework0A18ControllerDelegateP8sendBack12responseCode0G7Message0G4DataySi_SSSdtF",
+            "usr": "s:17LivenessFramework0A18ControllerDelegateP8sendBack12responseCode0G7Message0G4Data9imagePathySi_SSSdSStF",
+            "mangledName": "$s17LivenessFramework0A18ControllerDelegateP8sendBack12responseCode0G7Message0G4Data9imagePathySi_SSSdSStF",
             "moduleName": "LivenessFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : LivenessFramework.LivenessControllerDelegate>",
             "sugared_genericSig": "<Self where Self : LivenessFramework.LivenessControllerDelegate>",
@@ -788,49 +913,56 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 694,
+      "offset": 714,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "Array",
-      "offset": 744,
+      "offset": 764,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 893,
+      "offset": 980,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1104,
+      "offset": 1191,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1154,
+      "offset": 1241,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1207,
+      "offset": 1294,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1247,
+      "offset": 1334,
       "length": 1,
       "value": "3"
     },
