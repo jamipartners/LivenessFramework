@@ -1,0 +1,1817 @@
+{
+  "layer_shapes" : {
+    "InceptionResnetV1\/Repeat_1\/block17_2\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/Branch_2\/Conv2d_0c_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/Relu" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Mixed_7a\/Branch_2\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/Conv2d_1x1\/Conv2D" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/Branch_1\/Conv2d_0c_3x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "embeddings" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Block8\/Branch_1\/Conv2d_0c_3x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/mul" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/add" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/concat" : {
+      "k" : 96,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Mixed_7a\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/Branch_2\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/concat" : {
+      "k" : 384,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Bottleneck\/MatMul" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/Conv2d_1x1\/Conv2D" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "input" : {
+      "k" : 160,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 160
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Conv2d_4b_3x3\/Relu" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Block8\/add" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Mixed_7a\/Branch_3\/MaxPool_1a_3x3\/MaxPool" : {
+      "k" : 896,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/Branch_1\/Conv2d_0b_1x3\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/Branch_1\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/Branch_2\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/Branch_1\/Conv2d_0b_1x3\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/concat" : {
+      "k" : 384,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/Conv2d_1x1\/Conv2D" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/Branch_2\/Conv2d_0c_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Mixed_7a\/Branch_0\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/add" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/Relu" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/mul" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Logits\/Flatten\/flatten\/Reshape" : {
+      "k" : 1,
+      "w" : 1792,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/Reshape" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/mul" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/Conv2d_1x1\/Conv2D" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Mixed_7a\/Branch_2\/Conv2d_1a_3x3\/Relu" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/mul" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/MaxPool_3a_3x3\/MaxPool" : {
+      "k" : 64,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/Branch_2\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/add" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Block8\/concat" : {
+      "k" : 384,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/add" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/Branch_2\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/mul" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Conv2d_1a_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 79,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 79
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/FusedBatchNorm\/Sub" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/Conv2d_1x1\/Conv2D" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Mixed_6a\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/Branch_1\/Conv2d_0c_3x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Mixed_7a\/Branch_2\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/concat" : {
+      "k" : 96,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Mixed_7a\/Branch_1\/Conv2d_1a_3x3\/Relu" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Conv2d_3b_1x1\/Relu" : {
+      "k" : 80,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Block8\/mul" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/Branch_1\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/concat" : {
+      "k" : 384,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/Branch_1\/Conv2d_0b_1x3\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/FusedBatchNorm\/Mul_expanded" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/Branch_2\/Conv2d_0c_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/mul" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/add" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Mixed_6a\/concat" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Mixed_7a\/Branch_0\/Conv2d_1a_3x3\/Relu" : {
+      "k" : 384,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Block8\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/Relu" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Block8\/Branch_1\/Conv2d_0b_1x3\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/Relu" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/Branch_2\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/moving_mean\/read_expanded_neg" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Block8\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/moving_mean\/read" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Mixed_6a\/Branch_2\/MaxPool_1a_3x3\/MaxPool" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/Branch_2\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Conv2d_2a_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 77,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 77
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Block8\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/Branch_1\/Conv2d_0c_3x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/Conv2d_1x1\/Conv2D" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/beta\/read_expanded" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/FusedBatchNorm\/Add" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/Branch_1\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Mixed_6a\/Branch_1\/Conv2d_1a_3x3\/Relu" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/Conv2d_1x1\/Conv2D" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/moving_mean\/read_expanded" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/Relu" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/concat" : {
+      "k" : 96,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Mixed_7a\/concat" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/concat" : {
+      "k" : 384,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/Branch_2\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/Branch_2\/Conv2d_0c_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/FusedBatchNorm\/Mul_0" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/mul" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/Relu" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Mixed_6a\/Branch_1\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 192,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/add" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Mixed_6a\/Branch_0\/Conv2d_1a_3x3\/Relu" : {
+      "k" : 384,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/Branch_1\/Conv2d_0b_1x3\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/Branch_2\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_6\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/Relu" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/mul" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Block8\/Conv2d_1x1\/Conv2D" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/mul" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/FusedBatchNorm\/Mul" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/Branch_1\/Conv2d_0c_3x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/Relu" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/Conv2d_1x1\/Conv2D" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "input_to_nchw" : {
+      "k" : 3,
+      "w" : 160,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 160
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_4\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/add" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_3\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/concat" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_3\/add" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Conv2d_2b_3x3\/Relu" : {
+      "k" : 64,
+      "w" : 77,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 77
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_1\/Branch_1\/Conv2d_0c_3x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/add" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/Branch_1\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/concat" : {
+      "k" : 96,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/add" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/Conv2d_1x1\/Conv2D" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/Relu" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Bottleneck\/BatchNorm\/beta\/read" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat\/block35_4\/Branch_2\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Conv2d_4a_3x3\/Relu" : {
+      "k" : 192,
+      "w" : 36,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 36
+    },
+    "InceptionResnetV1\/Repeat\/block35_5\/Branch_2\/Conv2d_0c_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_9\/Branch_1\/Conv2d_0b_1x7\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_7\/add" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/Branch_0\/Conv2d_1x1\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_8\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_5\/Conv2d_1x1\/Conv2D" : {
+      "k" : 1792,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/concat" : {
+      "k" : 96,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_2\/concat" : {
+      "k" : 384,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Logits\/AvgPool_1a_8x8\/AvgPool" : {
+      "k" : 1792,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat\/block35_2\/Branch_1\/Conv2d_0b_3x3\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/Relu" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_10\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Logits\/AvgPool_1a_8x8\/AvgPool_to_nhwc" : {
+      "k" : 1,
+      "w" : 1792,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_2\/block8_4\/Branch_1\/Conv2d_0b_1x3\/Relu" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/Relu" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/mul" : {
+      "k" : 256,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat\/block35_1\/Branch_2\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 32,
+      "w" : 17,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 17
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_5\/mul\/x" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_1\/Conv2d_1x1\/Conv2D" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/mul" : {
+      "k" : 896,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_3\/Branch_1\/Conv2d_0a_1x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "InceptionResnetV1\/Repeat_1\/block17_2\/Branch_1\/Conv2d_0c_7x1\/Relu" : {
+      "k" : 128,
+      "w" : 8,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    }
+  }
+}

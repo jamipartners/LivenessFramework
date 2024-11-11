@@ -1,82 +1,48 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "LivenessFramework",
+    "printedName": "LivenessFramework",
     "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "LivenessFramework"
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreML",
+        "printedName": "CoreML",
         "declKind": "Import",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ServeResponse",
-        "printedName": "ServeResponse",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ServeResponse",
-                "printedName": "LivenessFramework.ServeResponse",
-                "usr": "s:17LivenessFramework13ServeResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:17LivenessFramework13ServeResponseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s17LivenessFramework13ServeResponseV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "LivenessFramework",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:17LivenessFramework13ServeResponseV",
-        "mangledName": "$s17LivenessFramework13ServeResponseV",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          }
-        ]
+        "moduleName": "LivenessFramework"
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "VideoToolbox",
+        "printedName": "VideoToolbox",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "LivenessFramework",
         "declAttributes": [
@@ -102,8 +68,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ImageManager",
-        "printedName": "ImageManager",
+        "name": "LivenessImageManager",
+        "printedName": "LivenessImageManager",
         "children": [
           {
             "kind": "Constructor",
@@ -112,14 +78,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImageManager",
-                "printedName": "LivenessFramework.ImageManager",
-                "usr": "s:17LivenessFramework12ImageManagerC"
+                "name": "LivenessImageManager",
+                "printedName": "LivenessFramework.LivenessImageManager",
+                "usr": "s:17LivenessFramework0A12ImageManagerC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17LivenessFramework12ImageManagerCACycfc",
-            "mangledName": "$s17LivenessFramework12ImageManagerCACycfc",
+            "usr": "s:17LivenessFramework0A12ImageManagerCACycfc",
+            "mangledName": "$s17LivenessFramework0A12ImageManagerCACycfc",
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "AccessControl"
@@ -150,8 +116,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17LivenessFramework12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
-            "mangledName": "$s17LivenessFramework12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
+            "usr": "s:17LivenessFramework0A12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
+            "mangledName": "$s17LivenessFramework0A12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "AccessControl"
@@ -185,8 +151,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17LivenessFramework12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
-            "mangledName": "$s17LivenessFramework12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
+            "usr": "s:17LivenessFramework0A12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
+            "mangledName": "$s17LivenessFramework0A12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "AccessControl"
@@ -195,22 +161,42 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:17LivenessFramework12ImageManagerC",
-        "mangledName": "$s17LivenessFramework12ImageManagerC",
+        "usr": "s:17LivenessFramework0A12ImageManagerC",
+        "mangledName": "$s17LivenessFramework0A12ImageManagerC",
         "moduleName": "LivenessFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "LivenessFramework"
       },
       {
         "kind": "Import",
@@ -285,6 +271,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -318,8 +320,9 @@
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -405,6 +408,94 @@
           },
           {
             "kind": "Var",
+            "name": "face_image",
+            "printedName": "face_image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17LivenessFramework11DetectionVCC10face_imageSSvp",
+            "mangledName": "$s17LivenessFramework11DetectionVCC10face_imageSSvp",
+            "moduleName": "LivenessFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC10face_imageSSvg",
+                "mangledName": "$s17LivenessFramework11DetectionVCC10face_imageSSvg",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC10face_imageSSvs",
+                "mangledName": "$s17LivenessFramework11DetectionVCC10face_imageSSvs",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC10face_imageSSvM",
+                "mangledName": "$s17LivenessFramework11DetectionVCC10face_imageSSvM",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "delegate",
             "printedName": "delegate",
             "children": [
@@ -420,8 +511,9 @@
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -508,6 +600,182 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "recognizeFrame",
+            "printedName": "recognizeFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17LivenessFramework11DetectionVCC14recognizeFrameSivp",
+            "mangledName": "$s17LivenessFramework11DetectionVCC14recognizeFrameSivp",
+            "moduleName": "LivenessFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC14recognizeFrameSivg",
+                "mangledName": "$s17LivenessFramework11DetectionVCC14recognizeFrameSivg",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC14recognizeFrameSivs",
+                "mangledName": "$s17LivenessFramework11DetectionVCC14recognizeFrameSivs",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC14recognizeFrameSivM",
+                "mangledName": "$s17LivenessFramework11DetectionVCC14recognizeFrameSivM",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notRecognizeFrame",
+            "printedName": "notRecognizeFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17LivenessFramework11DetectionVCC17notRecognizeFrameSivp",
+            "mangledName": "$s17LivenessFramework11DetectionVCC17notRecognizeFrameSivp",
+            "moduleName": "LivenessFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC17notRecognizeFrameSivg",
+                "mangledName": "$s17LivenessFramework11DetectionVCC17notRecognizeFrameSivg",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC17notRecognizeFrameSivs",
+                "mangledName": "$s17LivenessFramework11DetectionVCC17notRecognizeFrameSivs",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17LivenessFramework11DetectionVCC17notRecognizeFrameSivM",
+                "mangledName": "$s17LivenessFramework11DetectionVCC17notRecognizeFrameSivM",
+                "moduleName": "LivenessFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -527,6 +795,56 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBackArrowButton",
+            "printedName": "setBackArrowButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17LivenessFramework11DetectionVCC18setBackArrowButtonyyF",
+            "mangledName": "$s17LivenessFramework11DetectionVCC18setBackArrowButtonyyF",
+            "moduleName": "LivenessFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LivenessFramework@objc(cs)DetectionVC(im)viewDidLayoutSubviews",
+            "mangledName": "$s17LivenessFramework11DetectionVCC21viewDidLayoutSubviewsyyF",
+            "moduleName": "LivenessFramework",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -536,8 +854,8 @@
           },
           {
             "kind": "Function",
-            "name": "viewWillAppear",
-            "printedName": "viewWillAppear(_:)",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -546,30 +864,40 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LivenessFramework@objc(cs)DetectionVC(im)viewWillAppear:",
-            "mangledName": "$s17LivenessFramework11DetectionVCC14viewWillAppearyySbF",
+            "usr": "c:@M@LivenessFramework@objc(cs)DetectionVC(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s17LivenessFramework11DetectionVCC13captureOutput_03didF04fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0I10ConnectionCtF",
             "moduleName": "LivenessFramework",
-            "overriding": true,
-            "objc_name": "viewWillAppear:",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
             "declAttributes": [
-              "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
-              "Override",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "viewDidDisappear",
-            "printedName": "viewDidDisappear(_:)",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -584,14 +912,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LivenessFramework@objc(cs)DetectionVC(im)viewDidDisappear:",
-            "mangledName": "$s17LivenessFramework11DetectionVCC16viewDidDisappearyySbF",
+            "usr": "c:@M@LivenessFramework@objc(cs)DetectionVC(im)viewWillDisappear:",
+            "mangledName": "$s17LivenessFramework11DetectionVCC17viewWillDisappearyySbF",
             "moduleName": "LivenessFramework",
             "overriding": true,
-            "objc_name": "viewDidDisappear:",
+            "objc_name": "viewWillDisappear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -648,6 +977,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -689,53 +1019,11 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "captureOutput",
-            "printedName": "captureOutput(_:didOutput:from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AVCaptureOutput",
-                "printedName": "AVFoundation.AVCaptureOutput",
-                "usr": "c:objc(cs)AVCaptureOutput"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CMSampleBuffer",
-                "printedName": "CoreMedia.CMSampleBuffer",
-                "usr": "c:@T@CMSampleBufferRef"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AVCaptureConnection",
-                "printedName": "AVFoundation.AVCaptureConnection",
-                "usr": "c:objc(cs)AVCaptureConnection"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@LivenessFramework@objc(cs)DetectionVC(im)captureOutput:didOutputSampleBuffer:fromConnection:",
-            "mangledName": "$s17LivenessFramework11DetectionVCC13captureOutput_03didF04fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0I10ConnectionCtF",
-            "moduleName": "LivenessFramework",
-            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -743,6 +1031,7 @@
         "mangledName": "$s17LivenessFramework11DetectionVCC",
         "moduleName": "LivenessFramework",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -755,6 +1044,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -806,24 +1109,44 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "LivenessFramework",
         "declAttributes": [
@@ -839,13 +1162,24 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreML",
+        "printedName": "CoreML",
         "declKind": "Import",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
       },
       {
         "kind": "Import",
@@ -856,8 +1190,69 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "LivenessFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
         "declKind": "Import",
         "moduleName": "LivenessFramework",
         "declAttributes": [
@@ -897,88 +1292,242 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Constant\/Constant.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 118,
-      "length": 33,
-      "value": "\"https:\/\/jpbio.ublfunds.com:8443\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Constant\/Constant.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 13,
-      "value": "\"\/face-match\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 714,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "Array",
-      "offset": 764,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "StringLiteral",
-      "offset": 905,
+      "offset": 670,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 980,
-      "length": 4,
-      "value": "true"
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 43,
+      "value": "\"Failed to initialize Recognizer: \""
     },
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1191,
+      "offset": 1234,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1241,
+      "offset": 1284,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1294,
+      "offset": 1333,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1334,
+      "offset": 1370,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1404,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1449,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mustafa\/Documents\/LivenessFramework\/FaceDetection\/LivenessViewModel\/LivenessViewModel.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1479,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1584,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1621,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/ml\/Recognizer.swift",
+      "kind": "StringLiteral",
+      "offset": 150,
+      "length": 8,
+      "value": "\"labels\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/ml\/Recognizer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/ml\/Recognizer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/ml\/Recognizer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/ml\/Recognizer.swift",
       "kind": "Array",
-      "offset": 293,
+      "offset": 504,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-bndhrvqwchsxzbgorgjlmjodchda\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/ml\/Recognizer.swift",
+      "kind": "FloatLiteral",
+      "offset": 545,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/ml\/Recognizer.swift",
       "kind": "StringLiteral",
-      "offset": 731,
+      "offset": 579,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/SVC6\/SVC6.swift",
+      "kind": "Array",
+      "offset": 365,
+      "length": 9,
+      "value": "[\"input\"]"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/Facenet62\/Facenet62.swift",
+      "kind": "Array",
+      "offset": 396,
+      "length": 9,
+      "value": "[\"input\"]"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/Facenet6\/Facenet6.swift",
+      "kind": "Array",
+      "offset": 429,
+      "length": 9,
+      "value": "[\"image\"]"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/Fnet\/Fnet.swift",
+      "kind": "Array",
+      "offset": 421,
+      "length": 9,
+      "value": "[\"image\"]"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/Fnet128\/Fnet128.swift",
+      "kind": "Array",
+      "offset": 427,
+      "length": 9,
+      "value": "[\"image\"]"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 12,
+      "value": "\"ali_meezan\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 873,
+      "length": 12,
+      "value": "\"ashar_bhai\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1013,
       "length": 11,
       "value": "\"backArrow\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1151,
+      "length": 11,
+      "value": "\"breet_lee\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 12,
+      "value": "\"dalai_lama\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1425,
+      "length": 8,
+      "value": "\"irtiza\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 11,
+      "value": "\"more_face\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1700,
+      "length": 12,
+      "value": "\"pic_camera\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1841,
+      "length": 12,
+      "value": "\"pic_labels\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphonesimulator\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1973,
+      "length": 7,
+      "value": "\"wasim\""
     }
   ]
 }
