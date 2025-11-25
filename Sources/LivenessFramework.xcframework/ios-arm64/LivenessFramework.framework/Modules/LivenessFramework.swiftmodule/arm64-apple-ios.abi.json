@@ -1307,77 +1307,77 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 862,
+      "offset": 870,
       "length": 43,
       "value": "\"Failed to initialize Recognizer: \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 912,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1234,
+      "offset": 1242,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1284,
+      "offset": 1292,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1333,
+      "offset": 1345,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1370,
+      "offset": 1382,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1404,
+      "offset": 1416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1449,
+      "offset": 1465,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1479,
+      "offset": 1495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1584,
+      "offset": 1596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/faceID\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1621,
+      "offset": 1633,
       "length": 1,
       "value": "0"
     },
