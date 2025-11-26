@@ -1189,74 +1189,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LivenessFramework"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "LivenessFramework"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "LivenessFramework"
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "LivenessFramework"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "LivenessFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CoreML",
         "printedName": "CoreML",
         "declKind": "Import",
@@ -1431,13 +1363,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/SVC6\/SVC6.swift",
-      "kind": "Array",
-      "offset": 365,
-      "length": 9,
-      "value": "[\"input\"]"
-    },
-    {
       "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/Facenet62\/Facenet62.swift",
       "kind": "Array",
       "offset": 396,
@@ -1445,95 +1370,11 @@
       "value": "[\"input\"]"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/Facenet6\/Facenet6.swift",
-      "kind": "Array",
-      "offset": 429,
-      "length": 9,
-      "value": "[\"image\"]"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/Fnet\/Fnet.swift",
-      "kind": "Array",
-      "offset": 421,
-      "length": 9,
-      "value": "[\"image\"]"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/CoreMLGenerated\/Fnet128\/Fnet128.swift",
-      "kind": "Array",
-      "offset": 427,
-      "length": 9,
-      "value": "[\"image\"]"
-    },
-    {
       "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 732,
-      "length": 12,
-      "value": "\"ali_meezan\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 873,
-      "length": 12,
-      "value": "\"ashar_bhai\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1013,
+      "offset": 731,
       "length": 11,
       "value": "\"backArrow\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1151,
-      "length": 11,
-      "value": "\"breet_lee\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1291,
-      "length": 12,
-      "value": "\"dalai_lama\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1425,
-      "length": 8,
-      "value": "\"irtiza\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1560,
-      "length": 11,
-      "value": "\"more_face\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1700,
-      "length": 12,
-      "value": "\"pic_camera\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1841,
-      "length": 12,
-      "value": "\"pic_labels\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/LivenessFramework-dsdgnqbjoayyilczemlzcywjyhpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessFramework\/IntermediateBuildFilesPath\/LivenessFramework.build\/Release-iphoneos\/LivenessFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1973,
-      "length": 7,
-      "value": "\"wasim\""
     }
   ]
 }
