@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		qPe05ohPLjCkJ4HRKWfhVF4T4DQ=
+		RVqrULMN2UKclh9fRtnyfWRDivM=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -20,53 +20,29 @@
 		<data>
 		ZVgM1+KwZcZnwhgaI0F7Bt1ba2c=
 		</data>
+		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<data>
+		qLX/y/qEjr1JBzLk0vv4L/qLses=
+		</data>
 		<key>Base.lproj/Main.storyboardc/DetectionVC.nib</key>
 		<data>
-		CzUr+PeNnRpkMxwfYhj+tBwStFg=
+		RRXsG/6fbpDQC0DcvNVcTCV7EOY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		L3DsGtEO1Xnw1YdEJLHMTISX+NU=
+		+r6fMAa+MlJ/Hy7VNxZYAIFAjx8=
 		</data>
-		<key>Base.lproj/Main.storyboardc/t4i-bQ-nop-view-pvH-1D-323.nib</key>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Uge-Av-Qr3.nib</key>
 		<data>
-		iO6FhGbm7YVpaWc2NBA/7vQahXU=
+		Jvi2HNKEbJvl7SUSH84YG0kQEWk=
 		</data>
-		<key>Facenet62.mlmodelc/analytics/coremldata.bin</key>
+		<key>Base.lproj/Main.storyboardc/Uge-Av-Qr3-view-cKI-iz-Xm0.nib</key>
 		<data>
-		Shz3Aw+j/FGqgQyvOvkswgU2Fyk=
-		</data>
-		<key>Facenet62.mlmodelc/coremldata.bin</key>
-		<data>
-		plZik2nO7ITYnOyu0ak7z3lfziQ=
-		</data>
-		<key>Facenet62.mlmodelc/metadata.json</key>
-		<data>
-		2kdeNi5w8pBr1gAWDRYIBxPr2xk=
-		</data>
-		<key>Facenet62.mlmodelc/model.espresso.net</key>
-		<data>
-		VU1JZfFgW4oTLpnQM9Lfc7ZzXbM=
-		</data>
-		<key>Facenet62.mlmodelc/model.espresso.shape</key>
-		<data>
-		PfgHPehREh7WOjafIb1t0GmPpaM=
-		</data>
-		<key>Facenet62.mlmodelc/model.espresso.weights</key>
-		<data>
-		O2iH61Yt0uME3CdsmuASq/M5ikI=
-		</data>
-		<key>Facenet62.mlmodelc/model/coremldata.bin</key>
-		<data>
-		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-		</data>
-		<key>Facenet62.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<data>
-		tkgF5pxT7RlO+9uypQti9obolyA=
+		j8uLlVHhT8lkSQSAmOj7w8aeGS8=
 		</data>
 		<key>Headers/LivenessFramework-Swift.h</key>
 		<data>
-		Go2jQ+Vfu4nQVqQn3YyoJhhGsgk=
+		VrCJDv+kB/3HGw8zjwfJ7wXf17s=
 		</data>
 		<key>Headers/LivenessFramework.h</key>
 		<data>
@@ -74,15 +50,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eq6eNsQXN8SUWvVSXaQY0uhkf04=
+		441w9tqjZrsuRsxhSAIefNaeXM4=
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qZZYIHR/043ZsgniBOthoPuuGI8=
+		rudxeHtKZ3D1Rb8mFvX9DEUi5S4=
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WdTGqeN1yIC4BKEpjgSwETXBapw=
+		5V0yQ9lut3bk1IZwugiw5qgymIs=
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,19 +66,15 @@
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WdTGqeN1yIC4BKEpjgSwETXBapw=
+		5V0yQ9lut3bk1IZwugiw5qgymIs=
 		</data>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gUTle/hVY4tOeIl8/8Fzw3AasHw=
+		294G9Lmz/uHCqx7iM4h4pR3xWHg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		BpaXWODmhn9NG+crxJsl/paOy3Y=
-		</data>
-		<key>labels.txt</key>
-		<data>
-		bAKKgyfG40v3pKp1jhk8sZyBwK0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -118,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eY2xUL0E7RtfU3K2iDgDvZPqP4IO0GDiuyhJho31nbA=
+			EHmAxUJ01y+2BOHoLvTwgg3kW53TbNWJnCD5cvjOtYI=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -135,88 +107,46 @@
 			VPNjf2cf66XxnoLsT0p/tEi7PPwPsYDwiapXH8jwU+I=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nsijPZpBuwV9GStN+khX14XHNoEEGJ7BaWxSrrmrmVQ=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/DetectionVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OWdSj4ULplloA8YR7/NOwoyBsXX8ukc2dNj6JYgl7qE=
+			dCIsc9Z3Ld2R6n3Yn+/jFUUcoytt+Cq55A6eV5OM5fc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			deWhPAKdUp2Dis0O7go+AzzG47wbbqlIh1faLM7EDuU=
+			g2bhyJx/F+JnmjYFRMYgy0NUv9/pmhibhJtOHdjgays=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/t4i-bQ-nop-view-pvH-1D-323.nib</key>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Uge-Av-Qr3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XNfu/B7sxEWXIpQQkGTvOFPkH0nBkl7G1NsbJuh3EZc=
+			B+21bTYVhlswb3+6Z2mLRVqwwLop9d0xotboMwk+nno=
 			</data>
 		</dict>
-		<key>Facenet62.mlmodelc/analytics/coremldata.bin</key>
+		<key>Base.lproj/Main.storyboardc/Uge-Av-Qr3-view-cKI-iz-Xm0.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FLkAyi9taVm7X4oSFtv+xBinTeczVrItD9C0+lp8vkw=
-			</data>
-		</dict>
-		<key>Facenet62.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bLveLDw/1dIRMznRbs2lWrcJWyqCyC9A90cyHHQGQ3I=
-			</data>
-		</dict>
-		<key>Facenet62.mlmodelc/metadata.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IfyxUpCwNyXTG/AGQ0ti6XEzQtZgl/VgZAM13lwCTzY=
-			</data>
-		</dict>
-		<key>Facenet62.mlmodelc/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			v2DQpaem3PQZEuchuR07MH37YaK17UWEcRYtCq/R7+4=
-			</data>
-		</dict>
-		<key>Facenet62.mlmodelc/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PW8oyJ/oS3DLHKh8igf3GAVPwIuES6S7smckoDMiZgs=
-			</data>
-		</dict>
-		<key>Facenet62.mlmodelc/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5rqi2FEhGceIwfO8dL7ER7Y2nVUSDOvlOTEWbkJSBms=
-			</data>
-		</dict>
-		<key>Facenet62.mlmodelc/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
-			</data>
-		</dict>
-		<key>Facenet62.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
+			6iEYUiajs5mSUjt95ZFd+hbuUzQdKbPDYN0hmObaY+M=
 			</data>
 		</dict>
 		<key>Headers/LivenessFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kePgvEcex9gwkwgkr/bTjK4WF4HEGxS6Mel+/9XPEFA=
+			NHOckYfLxycYYOWiUboVEM5fkWgiMPrHpw7sEgRbn6E=
 			</data>
 		</dict>
 		<key>Headers/LivenessFramework.h</key>
@@ -230,14 +160,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dYU2fvqXckoT/yk55GX0Mb0EA3jRRsPUd3mcSdV3urU=
+			pIcNBl/Ztuyp+HQ9+DJuzLp3oIpErR30EDCXmtwqmOY=
 			</data>
 		</dict>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5fwhAvSQedt1aQ8JK9BaFTHTh8ASojYdDAHYsqkHZA=
+			cQ54PvXBa1cNzd6cB9tGHeh1SzhEQInHbs+xkcer9DM=
 			</data>
 		</dict>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -251,14 +181,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5fwhAvSQedt1aQ8JK9BaFTHTh8ASojYdDAHYsqkHZA=
+			cQ54PvXBa1cNzd6cB9tGHeh1SzhEQInHbs+xkcer9DM=
 			</data>
 		</dict>
 		<key>Modules/LivenessFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O7cdDhTef/GfZVixKxR4JDNMZznreOgp2uE8wx+IcT8=
+			PpBATVWpVj2l81SYfvdMixDqf1fOtLy7p/PyoFszvdg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -266,13 +196,6 @@
 			<key>hash2</key>
 			<data>
 			oo5cNd787ylu6fsCdko6badgxuL/yFPtzBKPuCcoLxY=
-			</data>
-		</dict>
-		<key>labels.txt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			51YV41fFAsEPyBr0PNexlCldALl1ywZztrpGYdaCCyc=
 			</data>
 		</dict>
 	</dict>

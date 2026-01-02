@@ -282,7 +282,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFoundation;
-@import CoreFoundation;
 @import CoreMedia;
 @import Foundation;
 @import UIKit;
@@ -308,35 +307,24 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class UIImageView;
-@class UILabel;
-@class UIButton;
+@class UIBarButtonItem;
+@class NSString;
+@class NSBundle;
 @class NSCoder;
-SWIFT_CLASS("_TtC17LivenessFramework18CollectionViewCell")
-@interface CollectionViewCell : UICollectionViewCell
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified menuImage;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified menuLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified menuDescription;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified menuButton;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC17LivenessFramework11DetectionVC")
+@interface DetectionVC : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
+- (void)backWithSender:(UIBarButtonItem * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIBarButtonItem;
 @class AVCaptureOutput;
 @class AVCaptureConnection;
-@class NSString;
-@class NSBundle;
-SWIFT_CLASS("_TtC17LivenessFramework11DetectionVC")
-@interface DetectionVC : UIViewController <AVCaptureVideoDataOutputSampleBufferDelegate>
-- (void)viewDidLoad;
-- (void)backWithSender:(UIBarButtonItem * _Nonnull)sender;
-- (IBAction)showAlertButtonTapped;
-- (void)viewDidLayoutSubviews;
+@interface DetectionVC (SWIFT_EXTENSION(LivenessFramework)) <AVCaptureVideoDataOutputSampleBufferDelegate>
 - (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
-- (void)viewWillDisappear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIApplication;
@@ -351,10 +339,23 @@ SWIFT_CLASS("_TtC17LivenessFramework19LivenessAppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+@class UIImageView;
+@class UIButton;
+SWIFT_CLASS("_TtC17LivenessFramework8ResultVC")
+@interface ResultVC : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified result_data;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified image_path;
+- (void)viewDidLoad;
+- (IBAction)openLiveness:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIScene;
-SWIFT_CLASS("_TtC17LivenessFramework21LivenessSceneDelegate")
-@interface LivenessSceneDelegate : UIResponder <UIWindowSceneDelegate>
+SWIFT_CLASS("_TtC17LivenessFramework13SceneDelegate")
+@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (void)scene:(UIScene * _Nonnull)scene willConnectToSession:(UISceneSession * _Nonnull)session options:(UISceneConnectionOptions * _Nonnull)connectionOptions;
 - (void)sceneDidDisconnect:(UIScene * _Nonnull)scene;
@@ -363,14 +364,6 @@ SWIFT_CLASS("_TtC17LivenessFramework21LivenessSceneDelegate")
 - (void)sceneWillEnterForeground:(UIScene * _Nonnull)scene;
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-SWIFT_CLASS("_TtC17LivenessFramework14ViewController")
-@interface ViewController : UIViewController
-- (void)viewDidLoad;
-- (IBAction)openCamera:(UIButton * _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif

@@ -3,16 +3,12 @@
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LivenessFramework
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
-import Accelerate
-import CoreML
 import DeveloperToolsSupport
 import Foundation
 @_exported import LivenessFramework
 import Swift
 import SwiftUI
 import UIKit
-import VideoToolbox
-import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -27,17 +23,12 @@ public class LivenessImageManager {
 public protocol LivenessControllerDelegate : AnyObject {
   func sendBack(responseCode: Swift.Int, responseMessage: Swift.String, responseData: Swift.Double, imagePath: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class DetectionVC : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class DetectionVC : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public var imageUrl: Swift.String?
-  @_Concurrency.MainActor @preconcurrency public var face_image: Swift.String
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any LivenessFramework.LivenessControllerDelegate)?
-  @_Concurrency.MainActor @preconcurrency public var recognizeFrame: Swift.Int
-  @_Concurrency.MainActor @preconcurrency public var notRecognizeFrame: Swift.Int
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency public func setBackArrowButton()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor @preconcurrency @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   #endif
@@ -45,4 +36,10 @@ public protocol LivenessControllerDelegate : AnyObject {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   #endif
   @objc deinit
+}
+extension LivenessFramework.DetectionVC : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+public struct ServeResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
 }
