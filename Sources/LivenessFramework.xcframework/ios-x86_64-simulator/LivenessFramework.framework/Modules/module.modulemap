@@ -7,5 +7,4 @@ framework module LivenessFramework {
 
 module LivenessFramework.Swift {
   header "LivenessFramework-Swift.h"
-  requires objc
 }
