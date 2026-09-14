@@ -33,8 +33,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ImageManager",
-        "printedName": "ImageManager",
+        "name": "LivenessImageManager",
+        "printedName": "LivenessImageManager",
         "children": [
           {
             "kind": "Constructor",
@@ -43,14 +43,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImageManager",
-                "printedName": "LivenessFramework.ImageManager",
-                "usr": "s:17LivenessFramework12ImageManagerC"
+                "name": "LivenessImageManager",
+                "printedName": "LivenessFramework.LivenessImageManager",
+                "usr": "s:17LivenessFramework0A12ImageManagerC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17LivenessFramework12ImageManagerCACycfc",
-            "mangledName": "$s17LivenessFramework12ImageManagerCACycfc",
+            "usr": "s:17LivenessFramework0A12ImageManagerCACycfc",
+            "mangledName": "$s17LivenessFramework0A12ImageManagerCACycfc",
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "AccessControl"
@@ -81,8 +81,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17LivenessFramework12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
-            "mangledName": "$s17LivenessFramework12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
+            "usr": "s:17LivenessFramework0A12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
+            "mangledName": "$s17LivenessFramework0A12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "AccessControl"
@@ -116,8 +116,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17LivenessFramework12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
-            "mangledName": "$s17LivenessFramework12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
+            "usr": "s:17LivenessFramework0A12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
+            "mangledName": "$s17LivenessFramework0A12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "AccessControl"
@@ -126,8 +126,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:17LivenessFramework12ImageManagerC",
-        "mangledName": "$s17LivenessFramework12ImageManagerC",
+        "usr": "s:17LivenessFramework0A12ImageManagerC",
+        "mangledName": "$s17LivenessFramework0A12ImageManagerC",
         "moduleName": "LivenessFramework",
         "declAttributes": [
           "AccessControl"
@@ -372,8 +372,8 @@
           },
           {
             "kind": "Var",
-            "name": "mobileNumber",
-            "printedName": "mobileNumber",
+            "name": "baseUrl",
+            "printedName": "baseUrl",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -391,15 +391,16 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17LivenessFramework11DetectionVCC12mobileNumberSSSgvp",
-            "mangledName": "$s17LivenessFramework11DetectionVCC12mobileNumberSSSgvp",
+            "usr": "s:17LivenessFramework11DetectionVCC7baseUrlSSSgvp",
+            "mangledName": "$s17LivenessFramework11DetectionVCC7baseUrlSSSgvp",
             "moduleName": "LivenessFramework",
             "declAttributes": [
               "HasInitialValue",
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -424,8 +425,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17LivenessFramework11DetectionVCC12mobileNumberSSSgvg",
-                "mangledName": "$s17LivenessFramework11DetectionVCC12mobileNumberSSSgvg",
+                "usr": "s:17LivenessFramework11DetectionVCC7baseUrlSSSgvg",
+                "mangledName": "$s17LivenessFramework11DetectionVCC7baseUrlSSSgvg",
                 "moduleName": "LivenessFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -456,8 +457,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17LivenessFramework11DetectionVCC12mobileNumberSSSgvs",
-                "mangledName": "$s17LivenessFramework11DetectionVCC12mobileNumberSSSgvs",
+                "usr": "s:17LivenessFramework11DetectionVCC7baseUrlSSSgvs",
+                "mangledName": "$s17LivenessFramework11DetectionVCC7baseUrlSSSgvs",
                 "moduleName": "LivenessFramework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -474,96 +475,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17LivenessFramework11DetectionVCC12mobileNumberSSSgvM",
-                "mangledName": "$s17LivenessFramework11DetectionVCC12mobileNumberSSSgvM",
-                "moduleName": "LivenessFramework",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "callApi",
-            "printedName": "callApi",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17LivenessFramework11DetectionVCC7callApiSbvp",
-            "mangledName": "$s17LivenessFramework11DetectionVCC7callApiSbvp",
-            "moduleName": "LivenessFramework",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17LivenessFramework11DetectionVCC7callApiSbvg",
-                "mangledName": "$s17LivenessFramework11DetectionVCC7callApiSbvg",
-                "moduleName": "LivenessFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17LivenessFramework11DetectionVCC7callApiSbvs",
-                "mangledName": "$s17LivenessFramework11DetectionVCC7callApiSbvs",
-                "moduleName": "LivenessFramework",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17LivenessFramework11DetectionVCC7callApiSbvM",
-                "mangledName": "$s17LivenessFramework11DetectionVCC7callApiSbvM",
+                "usr": "s:17LivenessFramework11DetectionVCC7baseUrlSSSgvM",
+                "mangledName": "$s17LivenessFramework11DetectionVCC7baseUrlSSSgvM",
                 "moduleName": "LivenessFramework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1201,85 +1114,71 @@
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 973,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 1000,
+      "offset": 1045,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1075,
+      "offset": 1120,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1313,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1257,
+      "offset": 1348,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1295,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1337,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1394,
+      "offset": 1409,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1444,
+      "offset": 1459,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1497,
+      "offset": 1512,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1537,
+      "offset": 1552,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 118,
-      "length": 33,
-      "value": "\"https:\/\/jpbio.ublfunds.com:8443\""
+      "offset": 119,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 213,
+      "offset": 139,
       "length": 13,
       "value": "\"\/face-match\""
     },
