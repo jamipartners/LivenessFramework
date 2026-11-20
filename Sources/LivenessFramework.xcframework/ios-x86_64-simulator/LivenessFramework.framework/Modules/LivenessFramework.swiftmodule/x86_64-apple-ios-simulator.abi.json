@@ -399,8 +399,7 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1115,56 +1114,56 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 968,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1120,
+      "offset": 1043,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1313,
+      "offset": 1236,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1348,
+      "offset": 1271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1409,
+      "offset": 1332,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1459,
+      "offset": 1382,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1512,
+      "offset": 1435,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Controller\/DetectionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1552,
+      "offset": 1475,
       "length": 1,
       "value": "3"
     },
@@ -1179,8 +1178,8 @@
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/Constant\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 139,
-      "length": 13,
-      "value": "\"\/face-match\""
+      "length": 12,
+      "value": "\"face-match\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/IOS Projects\/LivenessFramework\/LivenessFramework\/FaceDetection\/LivenessViewModel\/LivenessViewModel.swift",
