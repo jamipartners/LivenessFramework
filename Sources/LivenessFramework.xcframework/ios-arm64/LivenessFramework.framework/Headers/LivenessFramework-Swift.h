@@ -373,6 +373,7 @@ extern "C" {
 #if defined(__OBJC__)
 
 @class UIBarButtonItem;
+@class UITraitCollection;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
@@ -382,6 +383,8 @@ SWIFT_CLASS("_TtC17LivenessFramework11DetectionVC")
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 - (void)backWithSender:(UIBarButtonItem * _Nonnull)sender;
+/// Called automatically by UIKit whenever the user changes Light/Dark mode on the device.
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
